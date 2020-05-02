@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document1</title>
+</head>
+
+<body>
+    <style>
+        body {
+            padding: 20px;
+        }
+
+        .email-title {
+            color: #005b2a;
+        }
+
+        .content-description {
+            margin-bottom: 20px;
+        }
+
+        .content-description span {
+            color: green
+        }
+    </style>
+    <h1 class="email-title">Cron Updated Notification</h1>
+    <h3 class="content-description">File Processed: <span>%PROCESSED_FILE%</span></h3>
+    <h3 class="content-description">Updated Prices: <span>%UPDATED_PRICES%</span></h3>
+    <h3 class="content-description">Updated Quantities: <span>%UPDATE_QUANTITIES%</span></h3>
+    <h3 class="content-description">SKU not existing : <span>%SKUNOTEXIST%</span></h3>
+</body>
+
+</html>
